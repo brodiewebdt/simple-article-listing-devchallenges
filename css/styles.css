@@ -132,7 +132,7 @@ h6 {
 }
 
 body {
-  color: var(--color-neutral-400);
+  color: var(--color-neutral-900);
   font-family: var(--ff-base);
   font-size: var(--fs-base);
   line-height: 1.6;
@@ -150,4 +150,65 @@ body {
   position: absolute !important;
   width: 1px !important;
   white-space: nowrap !important;
+}
+
+h1 {
+  font-size: var(--fs-36);
+  font-weight: var(--fw-600);
+  line-height: 1.4;
+  text-align: center;
+}
+
+.header {
+  background-color: #fff;
+  margin-block: var(--spacing-42);
+  margin-inline: auto;
+  max-width: 46rem;
+  padding-inline: 32px;
+}
+
+.separator {
+  margin-block-end: var(--spacing-42);
+}
+
+.separator img {
+  margin-inline: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  max-width: 46rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-block-end: var(--spacing-42);
+  max-width: 100%;
+  padding-inline: 2rem;
+}
+
+@media (min-width: 500px) {
+  .card {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-60);
+  }
+}
+
+.article__image {
+  border-radius: 12px;
+  margin-bottom: var(--spacing-16);
+}
+
+.article__title {
+  font-size: var(--fs-20);
+  font-weight: var(--fw-600);
+  line-height: 1.4;
+  margin-bottom: var(--spacing-16);
 }
