@@ -203,7 +203,7 @@ h1 {
 
 .article__image {
   border-radius: 12px;
-  margin-bottom: var(--spacing-16);
+  margin-bottom: var(--spacing-24);
 }
 
 .article__title {
